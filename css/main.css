@@ -1,0 +1,425 @@
+/*
+THa main Color 
+
+#fee2b3;
+
+second color
+#f8f9fa;
+
+*/
+    /*   Genral   */                                        
+a{
+    color:#6c6767 !important;
+    text-decoration:none;
+    font-size:17px;
+    transition:all 0.2s ease-in-out;
+}
+a:hover,
+a:active{
+    color:#000 !important;
+    cursor:pointer;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: 'playfair display';
+    text-transform:capitalize;
+    color:#555;
+}
+p{
+    font-size:18px;
+}
+button{
+    background-color:#fee2b3;
+    text-decoration:none;
+    border:none;
+    display: block;
+    width:100%;
+    padding:20px;
+    border-radius:5px;
+    margin:0 auto;
+    transition:all 0.2s ease-in-out;
+}
+   /*   Genral   */
+
+/*Start NavBar*/
+.navbar{
+    background-color:#fee2b3;
+    padding:5px;
+    position:relative
+    
+}
+@media (max-width:991.98px){
+    .navbar{
+        padding:40px
+    }
+}
+.navbar .navbar-brand{
+    font-size:25px;
+    font-weight:800;
+    cursor: pointer;
+}
+@media (max-width:991.98px){
+    .navbar .navbar-brand{
+        text-align:center;
+        margin:20px auto;
+    }
+}
+.navbar .nav-item{
+    margin:20px 10px 10px;
+    font-size:17px;
+    padding-bottom:10px;
+    transition:all 0.3s ease-in-out;
+}
+@media(min-width:992px){
+    .navbar .nav-item:hover{
+    background-color:#fec15b;
+    padding:7px 7px 0 0 ;
+    border-radius:5px
+}
+}
+
+@media (max-width:991.98px){
+    .navbar .navbar-nav .nav-item{
+        margin:5px
+    }
+}
+.navbar .nav-item .nav-link{
+    color:#555;
+}
+
+.navbar .nav-item:hover .dropdown-menu{
+    display: block;
+} 
+
+.navbar .nav-item .dropdown-menu{
+    border:none;
+    border-radius:unset;
+    box-shadow:0 0 2px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1);
+    transition:all 0.2s ease-in-out;
+    padding:0
+}
+@media (max-width:991.98px){
+    .navbar .nav-item .dropdown-menu {
+        width:200px
+    }
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item{
+    width:200px;
+    font-weight:400;
+    padding:10px 20px;
+    transition:all 0.3s ease-in-out;
+}
+
+/*End NavBar*/
+
+/*Start Header*/
+.header{
+    color:#fff;
+    background:url('../images/hero_bg_1.jpg') center center no-repeat;
+    background-size:cover;
+    height:650px;
+}
+.header .overlay{
+    background-color:rgba(0,0,0,0.3);
+    padding:100px 0;
+    width:100%;
+    height:650px;
+    position:absolute
+}
+.header .info{
+    margin:80px 0 40px
+}
+@media (max-width:991.98px){
+    .header .info{margin:0 20px}    
+}
+.header .info h2{
+    font-size:50px ;
+    font-weight:bold;
+    line-height:1.2;
+    color:#fff;
+}
+.header .info p{
+    width:75%;
+    font-size:18px;
+    font-weight:400
+}
+.header .content{
+    background-color:#fff;
+    width:100%;
+    height:420px;
+    border-radius:7px;
+    padding:40px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1),0 0 10px rgba(0,0,0,0.1)
+}
+.header .content h4{
+    color:#555;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.header .content input{
+    margin-bottom:25px;
+    padding:25px 20px
+}
+.header .content i{
+    color:#a5a5a5;
+    font-size:19px;
+    position:absolute;
+    top:60%;
+    right:70px
+}
+.header .content button {
+    background-color:#fee2b3;
+    text-decoration:none;
+    border:none;
+    display: block;
+    width:100%;
+    padding:20px;
+    border-radius:5px;
+    margin:0 auto;
+    transition:all 0.2s ease-in-out;
+}
+.header .content button:hover{background-color:#fed48d}
+/*End Header*/
+
+/*Start Pratice*/
+.practice{
+    padding:95px 0 ;
+    background-color:#f8f9fa;
+}
+.practice h2{
+    font-size:34px
+}
+.practice p{
+    color:#555;
+}
+.practice .options{
+    background-color:#fff;
+    padding:50px 0 30px 40px;
+    margin:25px 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1)
+}
+.practice .options .colored-circle{
+    background-color:#fee2b3;
+    width:41px;
+    height:41px;
+    border-radius:50%;
+    position: relative
+}
+.practice .options i{
+    font-size:50px;
+    color:#555;
+    font-style:normal;
+    position:absolute;
+}
+.practice .options h4{
+    margin-top:15px;
+    font-size:22px;
+    font-weight:700
+}
+.practice .options p{
+    font-size:15px;
+    color:#a5a5a5;
+}
+/*End Pratice*/
+
+/*STart TEstimonials*/
+.testimonials{
+    padding:80px 0;
+}
+@media(max-width:991.98){
+.testimonials{
+    padding:0
+}
+}
+.testimonials .content{
+    padding:20px 0;
+    margin-left:60px
+}
+@media(max-width:991.98){
+    .testimonials .content{
+        margin:0;
+        padding:0
+    }
+}
+.testimonials .content h3{
+    font-size:27px;
+    line-height:1.2;
+    color:#555;
+    
+}
+.testimonials .content p{
+    color:#555;
+    margin:20px 0 60px;
+    width:100%;
+}
+.testimonials .content button{
+    width:220px;
+    padding:15px;
+    float:left
+}
+/*End TEstimonials*/
+
+/*Start Happy Customrs*/
+.happy-custom{
+    background-color:#f8f9fa;
+    padding:100px 0 60px;
+}
+.happy-custom .custom{
+    background-color:#fff;
+    padding:30px 0 0 20px;
+    box-shadow:1px 4px 15px 1px rgba(0,0,0,0.1);
+    float: left;
+    margin:40px 5px;
+    border-radius:5px
+}
+.happy-custom .custom  img{
+    width:55px;
+    height:55px;
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px
+
+}
+
+.happy-custom .custom p{
+    margin:10px 10px 50px;
+    text-align:left;
+    float:left;
+    color:#555
+}
+/*End Happy Customrs*/
+
+/*Start FAQ*/
+.faq{padding:80px 0 50px}
+.faq p{
+    font-size:16px;
+    color:#555;
+    line-height:1.5;
+    margin-top:20px;
+}
+.faq ul li{
+    position:relative;
+    padding:0 20px;
+    margin-bottom:20px;
+    color:#555;
+}
+
+/*Accordion style*/
+.custom-accordion .accordion-item {
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  position: relative; 
+}
+.custom-accordion .accordion-item .btn-link {
+    border-color: #efefef;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: left;
+    color: #999;
+    background: #fff;
+}
+.custom-accordion .accordion-item .btn-link:hover {color: #000;}
+.custom-accordion .accordion-item.active {z-index: 2;background: #f8f9fa; }
+.custom-accordion .accordion-item.active .btn-link {color: #000; }
+
+.custom-accordion .accordion-item .accordion-body {
+    padding: 20px;
+    color: #888;
+    background-color:#f8f9fa;
+     margin-top:2px}
+
+.post-entry-1 .meta {color: #ccc; }
+
+.post-entry-1 .post-entry-1-contents {background: #fff;padding: 20px; }
+
+.post-entry-1 .post-entry-1-contents h2 {font-size: 22px;margin-bottom: 20px; }
+
+.post-entry-1 .post-entry-1-contents h2 a {color: #000; }
+
+.post-entry-1 .post-entry-1-contents h2 a:hover {color: #fee2b3; }
+
+.post-entry-1.person-1 {text-align: center; }
+
+.post-entry-1.person-1 img {
+    width: 90px;
+    border-radius: 50%;
+    margin: 0 auto -45px auto; }
+.post-entry-1.person-1 .post-entry-1-contents {padding-top: 4rem; }
+
+/*End FAQ*/
+/*Start Footer*/
+.footer{
+    padding:120px 20px;
+    background:url('../images/hero_bg_footer.jpg');
+    background-size:cover;
+    max-width:100%;
+    height:700px;
+    color:#fff;
+}
+.footer h4{
+    font-size:15px;
+    color:#fff;
+    margin-bottom:20px  ;
+}
+.footer p{
+    width:80%;
+}
+.footer .left ul li{
+    display:inline-block;
+    margin:5px;
+    background-color:#fee2b3;
+    color:#fff;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    transition:all 0.3s ease-in-out;
+}
+.footer .left ul li:hover{
+    cursor:pointer;
+    background-color:#fccb78
+}
+.footer .left ul li i{
+    text-align:center;
+    margin:10px auto;
+    width:100%;
+    font-size:18px
+}
+.footer .right{
+    margin-top:20px
+}
+.footer .right ul li{
+    color:#929292;
+    font-weight:bold;
+    margin-bottom:15px;
+    transition:all 0.3s ease-in-out;
+}
+
+.footer .right ul li:hover{
+    color:#fff;
+    cursor:pointer;
+}
+.footer hr{
+    border-top:1px solid rgba(255,255,255,0.1);
+    margin-top:100px;
+}
+@media(max-width:991.98px){
+    .footer hr{
+        margin-top:20px
+    }
+}
+.footer p:last-child{
+    font-size:16px;
+    text-align:center;
+    margin:50px auto;
+}
+@media(max-width:991.98px){
+   .footer p:last-child{
+       margin:10px auto;
+       padding:10px
+   } 
+}
+/*End Footer*/
